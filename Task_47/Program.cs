@@ -21,7 +21,7 @@ double[,] FillArray(int rows, int columns, double begin, double end)
     {
         for (int j = 0; j < columns; j++)
         {
-            array[i, j] = Convert.ToDouble(new Random().Next(0, 10));
+            array[i, j] = Convert.ToDouble(new Random().Next(-100, 100)) / 10;
         }
     }
     return array;
