@@ -8,7 +8,7 @@
 Программа считает сумму элементов в каждой строке и выдаёт номер строки 
 с наименьшей суммой элементов: 1 строка*/
 
-void SortingArray(int[,] array)
+void MinSumRowElements(int[,] array)
 
 {
     
@@ -79,4 +79,4 @@ int columns = EnterData("Введите количество столбцов: "
 int[,] matrix = FillArray(rows, columns, 0, 9);
 //ВВодим на экран
 PrintArray(matrix);
-SortingArray(matrix);
+MinSumRowElements(matrix);
